@@ -11,7 +11,7 @@ const QuizMeCard = (props: Props) => {
   return (
     <div>
       <button
-        className="w-[200px] px-8 py-4 rounded-[20px] border-[1px] border-[#4ECDC4] shadow-2xl shadow-[#4ECDC4]"
+        className="w-[200px] px-8 py-4 rounded-[20px] border-[1px] hover:translate-y-[-20px] transition-all ease-in-out border-[#4ECDC4] shadow-2xl shadow-[#4ECDC4]"
         onClick={() => router.push("/quiz")}
       >
         Lets get started
