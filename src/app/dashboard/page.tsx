@@ -1,8 +1,5 @@
-import DetailsDialog from "@/components/DetailsDialog";
-import HistoryCard from "@/components/dashboard/HistoryCard";
-import HotTopicsCard from "@/components/dashboard/HotTopicsCard";
+import Image from "next/image";
 import QuizMeCard from "@/components/dashboard/QuizMeCard";
-import RecentActivityCard from "@/components/dashboard/RecentActivityCard";
 import { getAuthSession } from "@/lib/nextauth";
 import { redirect } from "next/navigation";
 import React from "react";
@@ -33,6 +30,22 @@ const Dasboard = async (props: Props) => {
         </div>
         <div className="mt-16">
           <QuizMeCard />
+        </div>
+        <div>
+          <Image
+            className="absolute bottom-7 left-0"
+            src="/quizgirl.png"
+            alt="quizgirl"
+            height={400}
+            width={400}
+          />
+          <Image
+            className="absolute bottom-0 right-0"
+            src="/quizguy.png"
+            alt="quizguy"
+            height={250}
+            width={250}
+          />
         </div>
       </div>
     </main>
