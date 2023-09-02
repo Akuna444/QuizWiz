@@ -15,7 +15,7 @@ const Navbar = async () => {
         {/* Logo */}
         <Link href={"/"} className="flex items-center gap-2">
           <Image src="/logo.png" alt="logo" height={80} width={80} />
-          <p className="rounded-lg border-2 border-b-4 border-r-4 border-[#4ECDC4] px-2 py-1 text-xl font-bold transition-all hover:-translate-y-[2px] md:block dark:border-white">
+          <p className="rounded-lg  text-white  px-2 py-1 text-xl font-bold transition-all hover:-translate-y-[2px] md:block dark:border-white">
             QuizWiz
           </p>
         </Link>
