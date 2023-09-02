@@ -139,13 +139,13 @@ const MCQ = ({ game }: Props) => {
           You Completed in{" "}
           {formatTimeDelta(differenceInSeconds(now, game.timeStarted))}
         </div>
-        {/* <Link
+        <Link
           href={`/statistics/${game.id}`}
           className={cn(buttonVariants({ size: "lg" }), "mt-2")}
         >
           View Statistics
           <BarChart className="w-4 h-4 ml-2" />
-        </Link> */}
+        </Link>
       </div>
     );
   }
