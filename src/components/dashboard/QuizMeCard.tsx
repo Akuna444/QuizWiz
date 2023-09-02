@@ -14,7 +14,7 @@ const QuizMeCard = (props: Props) => {
         className="w-[200px] px-8 py-4 rounded-[20px] border-[1px] hover:translate-y-[-20px] transition-all ease-in-out border-[#4ECDC4] shadow-2xl shadow-[#4ECDC4]"
         onClick={() => router.push("/quiz")}
       >
-        Lets get started
+        <p className="font-bold text-[#1A535C] ">Lets get started</p>
       </button>
     </div>
   );
