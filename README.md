@@ -1,3 +1,33 @@
+QuizWiz - Your Online Study Companion
+
+Welcome to the QuizWiz GitHub repository! QuizWiz is your go-to online study platform designed to streamline exam preparation and enhance your learning experience. This repository contains the source code and development history of the QuizWiz platform.
+
+## Structure
+
+The repository is organized as follows:
+
+**frontend/:** This directory holds the frontend code for QuizWiz, built using JavaScript, React, and Next.js. It encompasses the user interface components, styling, and interactive features.
+
+**backend/:** Inside this directory, you'll find the backend code of QuizWiz, powered by JavaScript. It includes API endpoints, database interactions, and the logic for quiz and flashcard generation.
+
+**ai-models/:** This directory is home to the AI models used by QuizWiz to provide intelligent quiz and flashcard generation. These models, which include OpenAI, play a crucial role in personalizing study materials.
+
+## Purpose
+
+This repository serves as a collaborative space for the development and enhancement of QuizWiz. By opening it to the public, we invite developers, contributors, and users to explore the codebase, report issues, and propose improvements.
+
+## How AI Models Elevate QuizWiz
+
+QuizWiz harnesses the power of AI models, including OpenAI, to revolutionize the online study experience. These AI models are finely tuned to generate quizzes and flashcards tailored to individual needs. By analyzing user preferences and study patterns, QuizWiz ensures that each quiz or flashcard set is not just relevant but also optimally structured for efficient learning.
+
+Our AI models excel at understanding complex topics, making QuizWiz an invaluable tool for students and learners in various domains. Whether it's generating math quizzes, language flashcards, or science questions, QuizWiz empowers users to study smarter, not harder.
+
+The AI integration in QuizWiz transforms traditional study materials into dynamic, personalized resources, helping users grasp concepts, retain knowledge, and excel in their studies.
+
+---
+
+Join us in the journey to make learning effortless and effective with QuizWiz!
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
