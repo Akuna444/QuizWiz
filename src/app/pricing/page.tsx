@@ -2,7 +2,6 @@
 import React from "react";
 import PriceCards from "@/components/ui/price-card";
 import { useRouter } from "next/navigation";
-import { BrainCircuit } from "lucide-react";
 
 type Props = {};
 

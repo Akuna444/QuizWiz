@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import PriceCards from "@/components/ui/price-card";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
