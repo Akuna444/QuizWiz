@@ -26,7 +26,7 @@ const Navbar = async () => {
               <h1>Quizzes</h1>
             </div>
           </Link>
-          <Link href="#" className="flex gap-2">
+          <Link href="/pricing" className="flex gap-2">
             <Image
               width={60}
               height={60}
@@ -37,7 +37,7 @@ const Navbar = async () => {
               <h1>Pricing</h1>
             </div>
           </Link>
-          <Link href="#" className="flex gap-2">
+          <Link href="/demo" className="flex gap-2">
             <Image width={60} height={60} src="/demo.png" alt="demo icon" />
             <div className="flex h-full items-center">
               <h1>Demo</h1>

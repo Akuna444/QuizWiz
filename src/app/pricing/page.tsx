@@ -1,18 +1,20 @@
 "use client";
 import React from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import PriceCards from "@/components/ui/price-card";
 import { useRouter } from "next/navigation";
 import { BrainCircuit } from "lucide-react";
 
 type Props = {};
 
-const QuizMeCard = (props: Props) => {
+const Pricing = (props: Props) => {
   const router = useRouter();
   return (
     <div>
-      <div></div>
+      <div>
+        <PriceCards />
+      </div>
     </div>
   );
 };
 
-export default QuizMeCard;
+export default Pricing;
