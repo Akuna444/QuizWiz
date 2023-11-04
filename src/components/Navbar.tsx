@@ -6,6 +6,7 @@ import UserAccountNav from "./UserAccountNav";
 import { ThemeToggle } from "./ThemeToggle";
 import { getAuthSession } from "@/lib/nextauth";
 import SignInButton from "./SignInButton";
+import { History } from "lucide-react";
 
 const Navbar = async () => {
   const session = await getAuthSession();
@@ -20,27 +21,10 @@ const Navbar = async () => {
           </p>
         </Link>
         <div className="flex text-white gap-3">
-          <Link href="/quiz" className="flex gap-2">
-            <Image width={60} height={60} src="/quiz.png" alt="quiz icon" />
-            <div className="flex h-full items-center">
-              <h1>Quizzes</h1>
-            </div>
-          </Link>
-          <Link href="/pricing" className="flex gap-2">
-            <Image
-              width={60}
-              height={60}
-              src="/price.png"
-              alt="pricetag icon"
-            />
-            <div className="flex h-full items-center">
-              <h1>Pricing</h1>
-            </div>
-          </Link>
-          <Link href="/demo" className="flex gap-2">
-            <Image width={60} height={60} src="/demo.png" alt="demo icon" />
-            <div className="flex h-full items-center">
-              <h1>Demo</h1>
+          <Link href="/history" className="flex gap-2">
+            <History size={32} />
+            <div className="md:flex hidden h-full items-center">
+              <h1>History</h1>
             </div>
           </Link>
         </div>

@@ -21,7 +21,7 @@ const Dasboard = async (props: Props) => {
     <main className="p-8 mx-auto max-w-7xl">
       <div className="flex flex-col items-center w-full">
         <div className="flex w-[70%] justify-center">
-          <h1 className="text-center leading-[4rem] text-5xl">
+          <h1 className="text-center md:leading-[4rem] text-2xl md:text-4xl lg:text-5xl">
             Welcome to QuizWiz were
             <span className="text-[#4ECDC4]"> Innovation</span> meets
             <span className="text-[#4ECDC4]"> Education</span> empowering you to
@@ -33,14 +33,14 @@ const Dasboard = async (props: Props) => {
         </div>
         <div>
           <Image
-            className="absolute bottom-7 left-0"
+            className="lg:absolute mt-14 mr-20 relative bottom-0 lg:bottom-7 left-0"
             src="/quizgirl.png"
             alt="quizgirl"
             height={400}
             width={400}
           />
           <Image
-            className="absolute bottom-0 right-0"
+            className="absolute hidden lg:block bottom-0 right-0"
             src="/quizguy.png"
             alt="quizguy"
             height={250}
